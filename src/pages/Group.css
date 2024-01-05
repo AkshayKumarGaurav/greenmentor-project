@@ -1629,3 +1629,7 @@
   color: var(--color-gray-300);
   font-family: var(--font-helveticaneue);
 }
+
+.w100{
+  width:100% !important
+}

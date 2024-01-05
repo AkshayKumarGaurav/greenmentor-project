@@ -1,6 +1,14 @@
+
 import "./Group.css";
+import MyChart from "./MyChart";
+import MyPieChart from "./PieChart";
+
+
+
 
 const Group = () => {
+  
+
   return (
     <div className="analyzes3-c1-parent">
       <div className="analyzes3-c1">
@@ -236,11 +244,8 @@ const Group = () => {
               </div>
               <div className="frame-child8" />
               <div className="frame-child9" />
-              <img
-                className="mix-line-bar-1-icon"
-                alt=""
-                src="/mixlinebar-1@2x.png"
-              />
+              <MyChart/>
+              
             </div>
             <div className="group-parent1">
               <div className="frame-parent6">
@@ -293,37 +298,8 @@ const Group = () => {
                   </div>
                 </div>
               </div>
-              <img className="group-item" alt="" src="/group-625872@2x.png" />
-              <img className="group-inner" alt="" src="/vector-60@2x.png" />
-              <img className="group-child1" alt="" src="/vector-62@2x.png" />
-              <img className="group-child2" alt="" src="/vector-63@2x.png" />
-              <img className="group-child3" alt="" src="/vector-64@2x.png" />
-              <img className="group-child4" alt="" src="/vector-61@2x.png" />
-              <img className="group-child5" alt="" src="/vector-59@2x.png" />
-              <div className="supplier-1-parent">
-                <div className="supplier-11">Supplier-1</div>
-                <div className="c02e">800 C02e</div>
-              </div>
-              <div className="supplier-2-parent">
-                <div className="supplier-11">Supplier-2</div>
-                <div className="c02e">420 C02e</div>
-              </div>
-              <div className="supplier-3-parent">
-                <div className="supplier-11">Supplier-3</div>
-                <div className="c02e">420 C02e</div>
-              </div>
-              <div className="supplier-5-parent">
-                <div className="supplier-11">Supplier-5</div>
-                <div className="c02e">1624 C02e</div>
-              </div>
-              <div className="supplier-6-parent">
-                <div className="supplier-11">Supplier-6</div>
-                <div className="c02e">889 C02e</div>
-              </div>
-              <div className="supplier-4-parent">
-                <div className="supplier-11">Supplier-4</div>
-                <div className="c02e">889 C02e</div>
-              </div>
+             <MyPieChart/>
+            
             </div>
           </div>
           <div className="frame-parent10">
